@@ -1,0 +1,51 @@
+.product1 {
+  max-width: 360px;
+  font-family: sans-serif;
+  margin-top: 30px;
+}
+
+.month-buttons {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.month-button {
+    width: 200px;
+    height: 50px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.month-button:hover {
+  background-color: #f0f0f0;
+}
+
+.month-button.selected {
+  background-color: #fff6d9;
+  border: 1px solid #fbbf24;
+}
+
+.limit-box {
+  background-color: #34d399;
+  color: white;
+  padding: 16px;
+  margin-top: 16px;
+  border-radius: 8px;
+}
+
+.limit-text {
+  font-size: 13px;
+}
+
+.limit-bold {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 4px;
+}

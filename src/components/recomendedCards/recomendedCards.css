@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+.arrivals1 {
+  width: 100%;
+  height: 1000px;
+  margin-top: 90px;
+}
+
+.arrivals1 .text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 21px;
+  margin-top: 40px;
+}
+
+.arrivals1 .text .cards {
+  width: 200px;
+  height: 350px;
+  margin-top: 50px;
+}
+
+.arrivals1 .img {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(239, 239, 239, 0.614);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.arrivals1 h1 {
+  font-size: 30px;
+  font-weight: 600;
+
+}
+
+.arrivals1 .text .cards h2 {
+  width: 100%;
+  height: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #000;
+}
+
+.arrivals1 .text .cards .month {
+  width: 180px;
+  height: 20px;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(255, 171, 68);
+  background-color: rgb(255, 234, 177);
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.arrivals1 .text .cards .month p {
+  font-size: 14px;
+}
+
+.arrivals1 .text .cards h4 {
+    color: #aaa;
+  font-weight: 100;
+}
+
+.arrivals1 .text .cards b {
+  color: rgb(255, 23, 23);
+  font-weight: 100;
+}
+
+.arrivals1 .text .cards h3 {
+  color: #aaa;
+  font-weight: 100;
+  font-size: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.arrivals1 .text .cards .button {
+  width: 120px;
+  height: 35px;
+  background-color: #ffc107;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+  transition: 0.2s;
+}
+
+.arrivals1 .text .cards .button:hover {
+  background-color: #ffd455;
+}
+
+.arrivals1 .text .cards .button button {
+  width: 60px;
+  font-size: 15px;
+  background-color: transparent;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+
+@media (max-width: 1500px) {
+  .arrivals1 {
+    height: 1400px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .arrivals1 {
+    height: 1800px;
+  }
+}
+
+@media (max-width: 800px) {
+  .arrivals1 {
+    height: 2600px;
+  }
+}

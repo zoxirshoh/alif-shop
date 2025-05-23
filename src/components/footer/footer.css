@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+.footer {
+  width: 100%;
+  height: 1000px;
+  margin-top: 150px;
+}
+
+.footer .offer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+.footer .offer .text {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .offer .text h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+}
+
+.footer .offer .text p {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.footer .offer .text .install {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer .offer .qr {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.footer .offer .qr p {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  gap: 40px;
+}
+
+.about .card h3 {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.about .card p {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.about .card .arr {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.about .card .arr h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: dodgerblue;
+}
+
+.footer footer {
+  width: 100%;
+  height: 430px;
+  background-color: #4f4f51;
+  margin-top: 80px;
+  padding: 0 20px;
+}
+
+.footer footer .links {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.footer footer .links .link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.footer footer .links .link h4 {
+  font-family: "Open Sans", sans-serif;
+  color: #2b2a36;
+}
+
+.footer footer .links .link a {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+.footer footer hr {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.footer footer .yandex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer footer .yandex h4 {
+  font-family: "Open Sans", sans-serif;
+  color: #2b2a36;
+}
+
+
+@media (max-width: 1000px) {
+  .offer {
+    flex-direction: column;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+
+  .about .card {
+    width: 500px;
+  }
+
+  footer h4{
+    font-size: 12px;
+  }
+
+  footer a {
+    font-size: 10px;
+  }
+}
