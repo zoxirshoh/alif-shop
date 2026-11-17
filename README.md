@@ -37,8 +37,8 @@ src/
 ## Getting started
 
 ```bash
-git clone https://github.com/zoxirshoh/Alif-shop.git
-cd Alif-shop
+git clone https://github.com/zoxirshoh/alif-shop.git
+cd alif-shop
 npm install
 npm run dev
 ```
