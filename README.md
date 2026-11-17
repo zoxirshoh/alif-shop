@@ -1,12 +1,48 @@
-# React + Vite
+# Alif Shop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An e-commerce web store inspired by modern Uzbek online marketplaces, built with React and Redux Toolkit.
 
-Currently, two official plugins are available:
+**Live demo:** https://alif-shop-three.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Shopping cart**: add and remove products, increase or decrease quantities
+- **Favorites**: save products and view them on a separate page
+- **Product pages** with dynamic routing for each category
+- Product carousels and category sections (electronics, cars, home, perfume, sport and more)
+- Login modal and toast notifications
+- Global state managed with Redux Toolkit slices (`cartSlice`, `favoritesSlice`)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech stack
+
+- React 19
+- Redux Toolkit + React Redux
+- React Router
+- styled-components
+- Swiper
+- React Toastify, React Icons
+- Axios
+- Vite, deployed on Vercel
+
+## Project structure
+
+```
+src/
+  components/   Reusable UI: header, footer, catalog, product sections, swiper
+  pages/        Home, product pages, cart (savat), favorites, login modal
+  redux/        Store and slices for cart and favorites
+  mock/         Mock product data
+```
+
+## Getting started
+
+```bash
+git clone https://github.com/zoxirshoh/Alif-shop.git
+cd Alif-shop
+npm install
+npm run dev
+```
+
+## Author
+
+**Zohirshoh Rahmonberdiyev**: [GitHub](https://github.com/zoxirshoh)
